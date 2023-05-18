@@ -1,5 +1,5 @@
 # one-social
-projet réseau social L1 informatique, tout premier projet d'une élève en informatique (l'accent du projet n'était pas sur le css).
+projet réseau social L1 informatique, tout premier projet d'une élève en informatique (l'accent du projet n'était pas sur le css, quelques améliorations auraient en effet pû avoir lieu).
 Le réseau social que j'ai crée tire son inspiration du manga One Piece.
 - Dans "ProjetV2/photoDuProjet/" se trouve le schéma de la bdd ainsi que des
 screen du réseau social.
