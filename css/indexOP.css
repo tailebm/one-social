@@ -1,0 +1,114 @@
+@font-face{
+  font-family: 'onepiece';
+  src: url('onepiece.ttf') format('truetype');
+}
+@font-face{
+  font-family: 'piratesBay';
+  src: url('piratesBay.ttf') format('truetype');
+}
+*{
+	font-family: 'piratesBay', sans-serif;
+/*	background: linear-gradient(to right, #303030, #70725E); */
+	margin:0; 
+	padding:0;
+	box-sizing: 
+	border-box; 
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+}
+/*contient les deux formulaires*/
+.container{
+	position: relative;
+	overflow: hidder;
+	min-height: 480px;
+	width: 768px;
+	max-width:100%;
+	border-radius: 10px;
+	box-shadow: 0 8px 24px rgba(0,32,63, .45),
+			0 8px 24px rgba(0,32,63, .45);
+	background: linear-gradient(to right, #0A2B58, #84DBF0); 
+}
+
+/*formulaire d'inscription*/
+.container .formulaire{
+	position: relative;
+	top: 80px;
+	left: 500px;
+	width: 80px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 50px;
+	height: 100%;
+	text-align: center;
+}
+/*formulaire de connexion*/
+.container .formulaire2{
+	position: relative;
+	top: -200px;
+	left: 100px;
+	width: 250px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 50px;
+	height: 100%;
+	text-align: center;
+	margin-top: 15px;
+}
+
+/*titre Connexion*/
+.container .connection{
+	position: relative;
+	top: -114px;
+	left: 1px;
+	width: 250px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 50px;
+	height: 100%;
+	text-align: center;
+}
+/*message de retour*/
+.container .erreur{
+	position: absolute;
+	top: -200px; 
+	left: 150px; 
+	width: 250px;
+	height: 100%; 	
+	color: red;
+	text-align: center;
+	font-family: 'piratesBay', sans-serif;
+}
+}
+/*input mais ne fonctionne pas*/
+input[type="submit"]{
+	background-color:#0A2B58;
+	color: #000;
+	border: 2px solid #84DBF0;
+	box-sizing: border-box;
+	border-radius: 4px;
+	cursor: pointer;
+}
+h1{
+	font-family: 'onepiece', sans-serif;
+	color: #84DBF0;
+}
+.connection h1{
+	font-family: 'onepiece', sans-serif;
+	color: #84DBF0;
+}
+.social{
+	font-family: 'onepiece', sans-serif;
+	color: #84DBF0;
+}
